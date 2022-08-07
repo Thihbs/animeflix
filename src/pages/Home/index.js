@@ -1,10 +1,11 @@
-import { Menu } from "./componentes/Menu";
-import BannerMain from "./componentes/BannerMain"
-import dadosIniciais from "./data/dados_iniciais.json"
-import Carousel from "./componentes/Carousel";
+import { Menu } from "../../componentes/Menu";
+import BannerMain from "../../componentes/BannerMain"
+import dadosIniciais from "../../data/dados_iniciais.json"
+import Carousel from "../../componentes/Carousel";
+import Footer from "../../componentes/Footer";
 
 
-function App() {
+function Home() {
   return (
     <div className="wrapper">   
       <Menu/>
@@ -26,8 +27,9 @@ function App() {
      <Carousel
        category={dadosIniciais.categorias[3]}
      />
+     <Footer/>
     </div>
   );
 }
 
-export default App;
+export default Home;

@@ -20,7 +20,6 @@ html,
 body{
   margin: 0;
   padding: 0;
-
 }
 
 a {
@@ -28,6 +27,11 @@ a {
 
 }
 
+#root{
+  min-height: calc(100vh -var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
 .wrapper{
   background: var(--grayDark);
   padding-top: 94px;

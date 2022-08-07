@@ -1,4 +1,6 @@
-.ButtonLink{
+import styled from "styled-components";
+
+const Button = styled.button`
     color: var(--white);
     border: 1px solid var(--white);
     box-sizing: border-box;
@@ -12,15 +14,13 @@
     text-decoration: none;
     display: inline-block;
     transition: opacity .3s;
-}
 
  
 
-.ButtonLink:hover{
+&:hover,
+&:focus{
     opacity: .5;
 }
+`;
 
-
-.ButtonLink:focus{
-    opacity: .5;
-}
+export default Button;
