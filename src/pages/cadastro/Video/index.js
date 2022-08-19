@@ -1,18 +1,10 @@
-
-import { Link } from 'react-router-dom';
 import PageDefault from './../../PageDefault/index';
-
-
-
+import Form from '../../../componentes/Form/index'
 
 function CadastroVideo(){
     return (
        <PageDefault>
-           <h1>Cadastro de Video.</h1>
-           <Link to="/cadastro/categoria">
-              Cadastrar Categoria
-           </Link>
-
+           <Form/>
        </PageDefault>
     )
   }

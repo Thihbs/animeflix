@@ -1,0 +1,38 @@
+
+.btn__enviar {   
+    font-size: 10px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.title__form{
+    font-size: 40px;
+    color: var(--primary);
+    text-shadow: 1.3px 1.3px var(--primary);
+    font-family:'Roboto', sans-serif;
+    padding-bottom: 3%;
+}
+
+
+.form__cadastroVideo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    position: relative;
+    margin-top: -35%;
+
+}
+.input{
+    margin: 0.5%;
+    width: 50%;
+    top: 0;
+    height: 3em;
+    border-radius: 10px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 12px;
+}
+
+

@@ -9,6 +9,7 @@ export const ContentAreaContainer = styled.section`
   justify-content: center;
   position: relative;
   z-index: 10;
+  
   @media (max-width: 800px) {
     padding-top: 100px;
     flex-direction: column;
@@ -72,7 +73,8 @@ export const BannerMainContainer = styled.section`
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
   background-size: cover;
   background-position: center;
-  margin-top: -2%;
+  margin-top: -35%;
+  
   @media (max-width: 800px) {
     height: auto;
     min-height: 50vh;
